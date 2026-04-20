@@ -1,0 +1,11 @@
+def sum_and_avg(numbers):
+    total = sum(numbers)
+    average = total / len(numbers) if numbers else 0
+    return total, average
+
+n=int(input("Enter the number of elements: "))
+numbers = []
+numbers=list(map(int, input("Enter the numbers: ").split()))
+total, average =sum_and_avg(numbers)
+print(f"Sum: {total}")
+print(f"Average: {average}")
