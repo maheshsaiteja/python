@@ -1,0 +1,5 @@
+file=open("cse.txt","a")
+s=input("enter the data to be appended in file:")
+file.write(s)
+print("data appended successfully")
+file.close()
