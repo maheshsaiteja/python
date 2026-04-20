@@ -1,0 +1,5 @@
+n=int(input("Enter a number upto which number you want to find the squere root:"))
+i=1
+while i<=n:
+ print(f"square of {i} is {i*i}")
+ i=i+1
